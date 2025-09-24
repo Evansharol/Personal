@@ -2,20 +2,31 @@
 <html lang="ta">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Verse Buddy Live</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <h1>🌟 யோவான் 8:36 – Verse Buddy 🌟</h1>
+        
+        <div class="progress-bar">
+            <div class="progress-fill" id="progress"></div>
+        </div>
+        
         <div id="character" class="character">
-            <div class="head">🤖</div>
+            <div class="character-body">🤖</div>
             <div class="hand">✋</div>
             <div class="mouth"></div>
         </div>
-        <div id="verse-display" class="verse-display"></div>
+        
+        <div id="verse-display" class="verse-display">Ready to learn!</div>
+        
         <div id="feedback">Press Start to Begin!</div>
-        <button id="start-btn">Start Learning</button>
+        
+        <button id="start-btn">🚀 Start Learning</button>
+        
+        <div id="celebration" class="completion-celebration"></div>
     </div>
 
     <script src="script.js"></script>
